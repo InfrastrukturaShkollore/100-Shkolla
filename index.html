@@ -361,7 +361,7 @@
         }
 
         function style_Infrastruktura_ne_Shkolla_2_0(feature) {
-            switch(String(feature.properties['Tipi i Ndërhyrjes'])) {
+            switch(String(feature.properties['Tipi_i_nd'])) {
                 case 'Rikonstruksion Tipi A':
                     return {
                 pane: 'pane_Infrastruktura_ne_Shkolla_2',
@@ -508,7 +508,7 @@
         document.getElementById("all").appendChild(col1);
         document.getElementById("all").appendChild(col2);
         col1.appendChild(mapDiv)
-        var Filters = {"Bashkia": "str","Tipi i Ndërhyrjes": "str","Lokacioni": "str"};
+        var Filters = {"Bashkia": "str","Tipi_i_nd": "str","Lokacioni": "str"};
         function filterFunc() {
           map.eachLayer(function(lyr){
           if ("options" in lyr && "dataVar" in lyr["options"]){
@@ -652,7 +652,7 @@
             sel_Tipi_i_nd.innerHTML = Tipi_i_nd_options_str;
             div_Tipi_i_nd.appendChild(sel_Tipi_i_nd);
             var lab_Tipi_i_nd = document.createElement('div');
-            lab_Tipi_i_nd.innerHTML = 'Tipi_i_nd';
+            lab_Tipi_i_nd.innerHTML = 'Tipi i Ndërhyrjes';
             lab_Tipi_i_nd.className = 'filterlabel';
             div_Tipi_i_nd.appendChild(lab_Tipi_i_nd);
             var reset_Tipi_i_nd = document.createElement('div');
