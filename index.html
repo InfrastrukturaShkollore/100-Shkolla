@@ -480,7 +480,7 @@
             };
             abstract.addTo(map);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Tipi Ndërhyrjes<br /><table><tr><td style="text-align: center;"><img src="legend/Infrastruktura_ne_Shkolla_2_RikonstruksionTipiA0.png" /></td><td>Rikonstruksion Tipi A</td></tr><tr><td style="text-align: center;"><img src="legend/Infrastruktura_ne_Shkolla_2_RikonstruksionTipiB1.png" /></td><td>Rikonstruksion Tipi B</td></tr><tr><td style="text-align: center;"><img src="legend/Infrastruktura_ne_Shkolla_2_Rehabilitim2.png" /></td><td>Rehabilitim</td></tr><tr><td style="text-align: center;"><img src="legend/Infrastruktura_ne_Shkolla_2_RindërtimTotal3.png" /></td><td>Rindërtim Total</td></tr></table>': layer_Infrastruktura_ne_Shkolla_2,'<img src="legend/Bashki_Kufi_Line_1.png" /> Bashki_Kufi_Line': layer_Bashki_Kufi_Line_1,"Google Satellite Hybrid": layer_GoogleSatelliteHybrid_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'Tipi Ndërhyrjes<br /><table><tr><td style="text-align: center;"><img src="legend/Infrastruktura_ne_Shkolla_2_RikonstruksionTipiA0.png" /></td><td>Rikonstruksion Tipi A</td></tr><tr><td style="text-align: center;"><img src="legend/Infrastruktura_ne_Shkolla_2_RikonstruksionTipiB1.png" /></td><td>Rikonstruksion Tipi B</td></tr><tr><td style="text-align: center;"><img src="legend/Infrastruktura_ne_Shkolla_2_Rehabilitim2.png" /></td><td>Rehabilitim</td></tr><tr><td style="text-align: center;"><img src="legend/Infrastruktura_ne_Shkolla_2_RindërtimTotal3.png" /></td><td>Rindërtim Total</td></tr></table>': layer_Infrastruktura_ne_Shkolla_2,'<img src="legend/Bashki_Kufi_Line_1.png" /> Kufi Bashkiak': layer_Bashki_Kufi_Line_1,"Google Satellite": layer_GoogleSatelliteHybrid_0,},{collapsed:false}).addTo(map);
         setBounds();
         map.addControl(new L.Control.Search({
             layer: layer_Infrastruktura_ne_Shkolla_2,
@@ -619,7 +619,7 @@
             sel_Bashkia.innerHTML = Bashkia_options_str;
             div_Bashkia.appendChild(sel_Bashkia);
             var lab_Bashkia = document.createElement('div');
-            lab_Bashkia.innerHTML = 'Selekto Bashkinë';
+            lab_Bashkia.innerHTML = 'Zgjidh Bashkinë';
             lab_Bashkia.className = 'filterlabel';
             div_Bashkia.appendChild(lab_Bashkia);
             var reset_Bashkia = document.createElement('div');
@@ -652,7 +652,7 @@
             sel_Tipi_i_nd.innerHTML = Tipi_i_nd_options_str;
             div_Tipi_i_nd.appendChild(sel_Tipi_i_nd);
             var lab_Tipi_i_nd = document.createElement('div');
-            lab_Tipi_i_nd.innerHTML = 'Selekto Tipin e Ndërhyrjes';
+            lab_Tipi_i_nd.innerHTML = 'Zgjidh Tipin e Ndërhyrjes';
             lab_Tipi_i_nd.className = 'filterlabel';
             div_Tipi_i_nd.appendChild(lab_Tipi_i_nd);
             var reset_Tipi_i_nd = document.createElement('div');
@@ -683,7 +683,7 @@
             sel_Lokacioni.innerHTML = Lokacioni_options_str;
             div_Lokacioni.appendChild(sel_Lokacioni);
             var lab_Lokacioni = document.createElement('div');
-            lab_Lokacioni.innerHTML = 'Selekto Lokacionin';
+            lab_Lokacioni.innerHTML = 'Zgjidh Lokacionin';
             lab_Lokacioni.className = 'filterlabel';
             div_Lokacioni.appendChild(lab_Lokacioni);
             var reset_Lokacioni = document.createElement('div');
