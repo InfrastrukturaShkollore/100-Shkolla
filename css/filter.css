@@ -14,7 +14,7 @@
 #menu {
   vertical-align: top;
   display: inline-block;
-  width: 70%;
+  width: 20%;
 }
 .filterselect{
   
@@ -38,7 +38,7 @@
 }
 .filterlabel {
     font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
-    /*width: 50%;
+    width: 50%;
     float: right;*/
     margin-right: 10px;
     padding: 0px;
